@@ -1,0 +1,4 @@
+# Netlify 배포 설정: Next.js 정적 export(out 폴더)를 그대로 서빙
+[build]
+  command = "npm run build"
+  publish = "out"
