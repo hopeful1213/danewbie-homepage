@@ -209,9 +209,8 @@ export default function Home() {
             <p className="mt-3 text-black/60">
               제휴 · 퍼블리싱 · 채용 등 어떤 문의든 환영합니다.
             </p>
-            {/* TODO: Formspree 엔드포인트로 교체하세요 (https://formspree.io 에서 폼 생성 후 발급) */}
             <form
-              action="https://formspree.io/f/your-form-id"
+              action="https://formspree.io/f/mykvrkjj"
               method="POST"
               className="mt-8 flex flex-col gap-4"
             >
