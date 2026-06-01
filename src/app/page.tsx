@@ -29,8 +29,7 @@ const GAMES = [
     status: "개발 중",
     desc: "귀여운 복셀 고양이가 장난감 가게를 튀어 오르며 콤보를 쌓는 모바일 점프 액션 게임.",
     gradient: "from-accent-3/40 via-accent-pink/30 to-accent-2/40",
-    // public/games/toyup.png 에 이미지를 넣으면 자동으로 표시됩니다.
-    image: "/games/toyup.png",
+    image: "/games/toyup/banner.png",
   },
   {
     name: "모모의 마법농장",
@@ -38,8 +37,7 @@ const GAMES = [
     status: "개발 중",
     desc: "메이플스토리 월드에서 즐기는, 마법으로 가꾸는 아기자기한 농장·낚시·채집 라이프 게임.",
     gradient: "from-accent-violet/40 via-accent-2/30 to-accent-pink/30",
-    // public/games/momo.png 에 이미지를 넣으면 자동으로 표시됩니다.
-    image: "/games/momo.png",
+    image: "/games/momo/farm.png",
   },
 ];
 
