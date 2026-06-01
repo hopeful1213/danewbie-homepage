@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "danubi-homepage",
+  "name": "danewbie-homepage",
   "compatibility_date": "2025-01-01",
   // 순수 정적 사이트: out 폴더의 파일만 그대로 배포 (OpenNext/서버 런타임 사용 안 함)
   "assets": {

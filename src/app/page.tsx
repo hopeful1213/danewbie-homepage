@@ -261,7 +261,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-black/[0.06] py-10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 text-sm text-black/40 sm:flex-row">
-          <p>© 2026 다뉴비스튜디오 (Danubi Studio). All rights reserved.</p>
+          <p>© 2026 다뉴비스튜디오 (Danewbie Studio). All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="transition hover:text-black">
               YouTube

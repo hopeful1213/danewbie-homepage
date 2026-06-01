@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "다뉴비스튜디오 | Danubi Studio",
+  title: "다뉴비스튜디오 | Danewbie Studio",
   description:
     "다뉴비스튜디오 — 새로운 재미를 만드는 게임 스튜디오. 우리가 만드는 게임과 비전을 소개합니다.",
   openGraph: {
-    title: "다뉴비스튜디오 | Danubi Studio",
+    title: "다뉴비스튜디오 | Danewbie Studio",
     description: "새로운 재미를 만드는 게임 스튜디오",
     type: "website",
   },
