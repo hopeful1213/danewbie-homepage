@@ -39,6 +39,9 @@ yarn-error.log*
 # local preview config
 .claude/
 
+# 배포 대상 아님: 원본 동영상 등 대용량 소스 (로컬 보관용)
+game-media-source/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
