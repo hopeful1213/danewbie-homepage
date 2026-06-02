@@ -81,9 +81,9 @@ export default function Home() {
               🎮 Game Studio · Est. 2026
             </p>
             <h1 className="max-w-3xl text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl">
-              We make games you&apos;ll want to{" "}
+              Casual games{" "}
               <span className="bg-gradient-to-r from-accent via-accent-pink to-accent-2 bg-clip-text text-transparent">
-                play again
+                for everyone
               </span>
             </h1>
             <p className="mt-6 max-w-xl text-lg text-black/60">
