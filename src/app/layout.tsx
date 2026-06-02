@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "다뉴비스튜디오 | Danewbie Studio",
+  title: "Danewbie Studio",
   description:
-    "다뉴비스튜디오 — 새로운 재미를 만드는 게임 스튜디오. 우리가 만드는 게임과 비전을 소개합니다.",
+    "Danewbie Studio — an indie game studio making new kinds of fun. Meet the games we build and the vision behind them.",
   openGraph: {
-    title: "다뉴비스튜디오 | Danewbie Studio",
-    description: "새로운 재미를 만드는 게임 스튜디오",
+    title: "Danewbie Studio",
+    description: "An indie game studio making new kinds of fun.",
     type: "website",
   },
 };
@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="ko"
+      lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>

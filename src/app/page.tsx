@@ -9,33 +9,33 @@ const NAV = [
 
 const VALUES = [
   {
-    title: "재미가 먼저",
-    desc: "기술이나 트렌드보다 '한 번 더 하고 싶은' 손맛을 먼저 설계합니다.",
+    title: "Fun First",
+    desc: "We design for that 'one more time' feeling before chasing tech or trends.",
   },
   {
-    title: "작게, 빠르게",
-    desc: "아이디어를 빠르게 플레이 가능한 형태로 만들어 직접 검증합니다.",
+    title: "Small & Fast",
+    desc: "We turn ideas into playable builds quickly, then test them ourselves.",
   },
   {
-    title: "오래 남는 경험",
-    desc: "잠깐의 자극이 아니라 다시 떠올리게 되는 게임을 지향합니다.",
+    title: "Lasting Experiences",
+    desc: "We aim for games you remember, not just momentary thrills.",
   },
 ];
 
 const GAMES = [
   {
     name: "Toy Up!",
-    genre: "모바일 · 복셀 액션",
-    status: "개발 중",
-    desc: "귀여운 복셀 고양이가 장난감 가게를 튀어 오르며 콤보를 쌓는 모바일 점프 액션 게임.",
+    genre: "Mobile · Voxel Action",
+    status: "In Development",
+    desc: "A mobile jump-action game where a cute voxel cat bounces through a toy shop, stacking combos.",
     gradient: "from-accent-3/40 via-accent-pink/30 to-accent-2/40",
     image: "/games/toyup/banner.png",
   },
   {
-    name: "모모의 마법농장",
-    genre: "메이플스토리 월드",
-    status: "개발 중",
-    desc: "메이플스토리 월드에서 즐기는, 마법으로 가꾸는 아기자기한 농장·낚시·채집 라이프 게임.",
+    name: "Momo's Magic Farm",
+    genre: "MapleStory Worlds",
+    status: "In Development",
+    desc: "A cozy farming, fishing, and gathering life game powered by magic, built on MapleStory Worlds.",
     gradient: "from-accent-violet/40 via-accent-2/30 to-accent-pink/30",
     image: "/games/momo/farm.png",
   },
@@ -48,7 +48,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 border-b border-black/[0.06] bg-background/80 backdrop-blur-md">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <Link href="#top" className="text-lg font-extrabold tracking-tight">
-            다뉴비<span className="text-accent">스튜디오</span>
+            Danewbie<span className="text-accent"> Studio</span>
           </Link>
           <ul className="hidden gap-8 text-sm font-medium text-black/60 sm:flex">
             {NAV.map((item) => (
@@ -63,7 +63,7 @@ export default function Home() {
             href="#contact"
             className="rounded-full bg-accent px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:opacity-90"
           >
-            문의하기
+            Get in Touch
           </a>
         </nav>
       </header>
@@ -81,27 +81,28 @@ export default function Home() {
               🎮 Game Studio · Est. 2026
             </p>
             <h1 className="max-w-3xl text-4xl font-extrabold leading-tight tracking-tight sm:text-6xl">
-              새로운 재미를{" "}
+              We make games you&apos;ll want to{" "}
               <span className="bg-gradient-to-r from-accent via-accent-pink to-accent-2 bg-clip-text text-transparent">
-                만드는 사람들
+                play again
               </span>
             </h1>
             <p className="mt-6 max-w-xl text-lg text-black/60">
-              다뉴비스튜디오는 한 번 더 하고 싶어지는 게임을 만듭니다. 작게
-              시작해 빠르게 만들고, 직접 플레이하며 다듬습니다.
+              Danewbie Studio builds games you&apos;ll want to come back to. We
+              start small, build fast, and refine them by playing them
+              ourselves.
             </p>
             <div className="mt-10 flex flex-wrap gap-4">
               <a
                 href="#games"
                 className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:opacity-90"
               >
-                우리가 만드는 게임
+                Our Games
               </a>
               <a
                 href="#about"
                 className="rounded-full border border-black/15 bg-white px-6 py-3 text-sm font-semibold text-black/70 shadow-sm transition hover:bg-black/[0.03]"
               >
-                스튜디오 소개
+                About Us
               </a>
             </div>
           </div>
@@ -115,7 +116,7 @@ export default function Home() {
                 Our Games
               </h2>
               <p className="mt-3 text-black/60">
-                지금 만들고 있는 게임들을 소개합니다.
+                The games we&apos;re building right now.
               </p>
             </div>
             <div className="grid gap-6 sm:grid-cols-2">
@@ -156,12 +157,12 @@ export default function Home() {
         <section id="about" className="border-t border-black/[0.06] py-24">
           <div className="mx-auto max-w-6xl px-6">
             <h2 className="max-w-2xl text-3xl font-extrabold tracking-tight sm:text-4xl">
-              작은 스튜디오, 분명한 방향
+              A small studio with a clear direction
             </h2>
             <p className="mt-4 max-w-2xl text-black/60">
-              다뉴비스튜디오는 2026년 시작한 게임 스튜디오입니다. 거창한 규모
-              대신, 플레이어가 진짜 즐거워하는 한 가지를 잘 만드는 데
-              집중합니다.
+              Danewbie Studio is a game studio founded in 2026. Instead of
+              chasing scale, we focus on doing one thing well — making something
+              players genuinely love.
             </p>
             <div className="mt-12 grid gap-6 sm:grid-cols-3">
               {VALUES.map((v) => (
@@ -184,17 +185,17 @@ export default function Home() {
           <div className="mx-auto max-w-6xl px-6">
             <div className="rounded-3xl border border-black/[0.06] bg-gradient-to-br from-accent-3/20 via-white to-accent-2/15 p-10 shadow-sm sm:p-14">
               <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
-                함께 만들 사람을 찾습니다
+                We&apos;re looking for people to build with
               </h2>
               <p className="mt-4 max-w-xl text-black/60">
-                재미를 진지하게 고민하는 동료를 기다립니다. 기획, 프로그래밍,
-                아트 — 게임을 사랑한다면 언제든 연락 주세요.
+                We want teammates who take fun seriously. Design, programming,
+                art — if you love games, reach out anytime.
               </p>
               <a
                 href="#contact"
                 className="mt-8 inline-block rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:opacity-90"
               >
-                지원/문의하기
+                Apply / Get in Touch
               </a>
             </div>
           </div>
@@ -207,7 +208,7 @@ export default function Home() {
               Contact
             </h2>
             <p className="mt-3 text-black/60">
-              제휴 · 퍼블리싱 · 채용 등 어떤 문의든 환영합니다.
+              Partnership, publishing, careers — any inquiry is welcome.
             </p>
             <form
               action="https://formspree.io/f/mykvrkjj"
@@ -217,20 +218,20 @@ export default function Home() {
               <input
                 type="text"
                 name="name"
-                placeholder="이름"
+                placeholder="Name"
                 required
                 className="rounded-lg border border-black/10 bg-white px-4 py-3 text-sm text-black/80 outline-none transition placeholder:text-black/40 focus:border-accent"
               />
               <input
                 type="email"
                 name="email"
-                placeholder="이메일"
+                placeholder="Email"
                 required
                 className="rounded-lg border border-black/10 bg-white px-4 py-3 text-sm text-black/80 outline-none transition placeholder:text-black/40 focus:border-accent"
               />
               <textarea
                 name="message"
-                placeholder="문의 내용"
+                placeholder="Message"
                 rows={5}
                 required
                 className="resize-none rounded-lg border border-black/10 bg-white px-4 py-3 text-sm text-black/80 outline-none transition placeholder:text-black/40 focus:border-accent"
@@ -239,11 +240,11 @@ export default function Home() {
                 type="submit"
                 className="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-sm transition hover:opacity-90"
               >
-                보내기
+                Send
               </button>
             </form>
             <p className="mt-6 text-sm text-black/40">
-              또는 이메일:{" "}
+              Or email us at:{" "}
               <a
                 href="mailto:hopeful1213@gmail.com"
                 className="font-medium text-accent-2 hover:underline"
@@ -258,7 +259,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-black/[0.06] py-10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 text-sm text-black/40 sm:flex-row">
-          <p>© 2026 다뉴비스튜디오 (Danewbie Studio). All rights reserved.</p>
+          <p>© 2026 Danewbie Studio. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="transition hover:text-black">
               YouTube
