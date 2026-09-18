@@ -246,10 +246,10 @@ export default function Home() {
             <p className="mt-6 text-sm text-black/40">
               Or email us at:{" "}
               <a
-                href="mailto:hopeful1213@gmail.com"
+                href="mailto:contact@danewbiestudio.com"
                 className="font-medium text-accent-2 hover:underline"
               >
-                hopeful1213@gmail.com
+                contact@danewbiestudio.com
               </a>
             </p>
           </div>
@@ -261,14 +261,29 @@ export default function Home() {
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 text-sm text-black/40 sm:flex-row">
           <p>© 2026 Danewbie Studio. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="transition hover:text-black">
+            <a
+              href="https://www.youtube.com/@danewbietv"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-black"
+            >
               YouTube
             </a>
-            <a href="#" className="transition hover:text-black">
+            <a
+              href="https://x.com/AlreadyCold"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-black"
+            >
               X
             </a>
-            <a href="#" className="transition hover:text-black">
-              Discord
+            <a
+              href="https://github.com/hopeful1213"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition hover:text-black"
+            >
+              GitHub
             </a>
           </div>
         </div>
